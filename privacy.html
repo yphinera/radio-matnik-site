@@ -1,1 +1,131 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Politique de confidentialité — Radio Matnik</title>
+  <meta name="description" content="Politique de confidentialité de l'application Radio Matnik." />
+  <style>
+    :root {
+      --bg: #121212;
+      --surface: #1e1e1e;
+      --primary: #FFB300;
+      --text: #ECECEC;
+      --muted: #9E9E9E;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 48px 24px 64px; }
+    h1 { font-size: 2rem; margin-bottom: 4px; }
+    .updated { color: var(--muted); font-size: 0.9rem; margin-top: 0; margin-bottom: 32px; }
+    h2 { font-size: 1.25rem; color: var(--primary); margin-top: 36px; }
+    a { color: var(--primary); }
+    ul { padding-left: 20px; }
+    li { margin-bottom: 6px; }
+    .back { display: inline-block; margin-top: 40px; color: var(--muted); }
+    code { background: #2a2a2a; padding: 1px 5px; border-radius: 4px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Politique de confidentialité</h1>
+    <p class="updated">Application « Radio Matnik » — Dernière mise à jour : 29 mai 2026</p>
 
+    <p>
+      La présente politique décrit comment l'application mobile <strong>Radio Matnik</strong>
+      (« l'application ») traite les informations lorsque vous l'utilisez. Nous avons conçu
+      l'application pour fonctionner <strong>sans compte utilisateur</strong> et avec une collecte
+      de données réduite au strict minimum nécessaire à son fonctionnement.
+    </p>
+
+    <h2>1. Aucune donnée personnelle collectée</h2>
+    <p>
+      L'application <strong>ne vous demande pas de créer de compte</strong> et ne collecte
+      <strong>aucune donnée personnelle identifiante</strong> : ni nom, ni adresse e-mail,
+      ni numéro de téléphone, ni localisation. Vous pouvez utiliser l'ensemble des
+      fonctionnalités de manière anonyme.
+    </p>
+
+    <h2>2. Données techniques et stockage local</h2>
+    <p>Pour fonctionner, l'application stocke certaines informations <strong>uniquement sur votre appareil</strong> :</p>
+    <ul>
+      <li><strong>Préférences et réglages</strong> (stations favorites, alarmes que vous configurez, options du lecteur).</li>
+      <li><strong>Caches techniques</strong> : images, listes de podcasts et d'actualités sont mises en cache localement afin de réduire la consommation de données et d'accélérer l'affichage.</li>
+      <li><strong>Identifiant de session anonyme</strong> : pour accéder à notre service backend, l'application crée une session technique <strong>anonyme</strong> (sans lien avec votre identité) via notre prestataire d'hébergement.</li>
+    </ul>
+    <p>
+      Ces données restent locales et sont supprimées lorsque vous désinstallez l'application
+      ou videz son cache/ses données dans les réglages de votre appareil.
+    </p>
+
+    <h2>3. Services tiers et contenus agrégés</h2>
+    <p>
+      L'application donne accès à des contenus fournis par des tiers (flux radio en direct,
+      articles d'actualité, podcasts, images associées). Lorsque ces contenus sont chargés,
+      des requêtes réseau sont effectuées vers les serveurs concernés, qui peuvent recevoir
+      des informations techniques standard (adresse IP, type d'appareil) selon leurs propres
+      politiques. Les principaux services impliqués sont :
+    </p>
+    <ul>
+      <li><strong>Appwrite</strong> — hébergement de notre service backend et passerelle technique vers l'annuaire de podcasts.</li>
+      <li><strong>PodcastIndex</strong> — annuaire de podcasts (interrogé via notre passerelle).</li>
+      <li><strong>Fournisseurs de flux radio, de podcasts et de sources d'actualité</strong> — diffusion des contenus que vous consultez.</li>
+    </ul>
+    <p>
+      Nous vous invitons à consulter les politiques de confidentialité respectives de ces
+      services pour le traitement qu'ils opèrent de leur côté.
+    </p>
+
+    <h2>4. Publicité et analyse d'audience</h2>
+    <p>
+      À ce jour, l'application <strong>n'intègre aucune publicité</strong> ni aucun outil de
+      pistage publicitaire ou d'analyse comportementale. Si cela venait à évoluer, la présente
+      politique serait mise à jour en conséquence et, le cas échéant, votre consentement serait
+      recueilli.
+    </p>
+
+    <h2>5. Autorisations de l'appareil</h2>
+    <p>L'application peut demander certaines autorisations strictement liées à ses fonctions :</p>
+    <ul>
+      <li><strong>Accès Internet / réseau</strong> — pour diffuser les flux et charger les contenus.</li>
+      <li><strong>Lecture en arrière-plan / notifications</strong> — pour continuer la lecture et afficher les contrôles du lecteur.</li>
+      <li><strong>Alarmes / rappels</strong> — pour déclencher le réveil radio à l'heure programmée.</li>
+      <li><strong>Réseau local</strong> — pour détecter les appareils Google Cast et DLNA lors de la diffusion.</li>
+    </ul>
+
+    <h2>6. Enfants</h2>
+    <p>
+      L'application n'est pas destinée spécifiquement aux enfants et ne collecte pas
+      sciemment de données les concernant.
+    </p>
+
+    <h2>7. Vos droits</h2>
+    <p>
+      Comme aucune donnée personnelle n'est collectée ni conservée sur nos serveurs,
+      il n'existe pas de profil utilisateur à consulter, modifier ou supprimer de notre côté.
+      La suppression des données locales s'effectue en désinstallant l'application. Pour toute
+      question relative à vos droits (notamment au titre du RGPD), vous pouvez nous contacter.
+    </p>
+
+    <h2>8. Modifications de cette politique</h2>
+    <p>
+      Cette politique peut être mise à jour. La date de dernière mise à jour figure en haut de
+      page. Les modifications prennent effet dès leur publication sur cette page.
+    </p>
+
+    <h2>9. Contact</h2>
+    <p>
+      Pour toute question concernant cette politique de confidentialité, écrivez-nous à&nbsp;:
+      <a href="mailto:y.phinera@gmail.com">y.phinera@gmail.com</a>.
+    </p>
+
+    <a class="back" href="index.html">← Retour à l'accueil</a>
+  </div>
+</body>
+</html>
