@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Politique de confidentialité — Radio Matnik</title>
-  <meta name="description" content="Politique de confidentialité de l'application Radio Matnik." />
+  <title>Politique de confidentialité — Média Tropical</title>
+  <meta name="description" content="Politique de confidentialité de l'application Média Tropical (anciennement Radio Matnik)." />
   <style>
     :root {
       --bg: #121212;
@@ -35,24 +35,75 @@
 <body>
   <div class="wrap">
     <h1>Politique de confidentialité</h1>
-    <p class="updated">Application « Radio Matnik » — Dernière mise à jour : 23 juin 2026</p>
+    <p class="updated">Application « Média Tropical » (anciennement « Radio Matnik ») — Dernière mise à jour : 26 octobre 2026</p>
 
     <p>
-      La présente politique décrit comment l'application mobile <strong>Radio Matnik</strong>
-      (« l'application ») traite les informations lorsque vous l'utilisez. Nous avons conçu
-      l'application pour fonctionner <strong>sans compte utilisateur</strong> et avec une collecte
-      de données réduite au strict minimum nécessaire à son fonctionnement.
+      La présente politique décrit comment l'application mobile Android <strong>Média Tropical</strong>
+      (anciennement Radio Matnik, « l'application ») traite les informations lorsque vous
+      l'utilisez. Nous avons conçu l'application pour fonctionner <strong>sans compte
+      utilisateur</strong> et avec une collecte de données réduite au strict minimum nécessaire
+      à son fonctionnement. Un <strong>compte facultatif</strong> permet seulement de retrouver
+      vos favoris sur plusieurs appareils (voir section 2).
     </p>
 
-    <h2>1. Aucune donnée personnelle collectée</h2>
+    <h2>1. Utilisation anonyme par défaut</h2>
     <p>
-      L'application <strong>ne vous demande pas de créer de compte</strong> et ne collecte
+      L'application <strong>n'impose pas de créer de compte</strong> et, sans compte, ne collecte
       <strong>aucune donnée personnelle identifiante</strong> : ni nom, ni adresse e-mail,
       ni numéro de téléphone, ni localisation. Vous pouvez utiliser l'ensemble des
-      fonctionnalités de manière anonyme.
+      fonctionnalités de manière anonyme. Seule la connexion facultative décrite à la
+      section 2 implique le traitement de données vous identifiant.
     </p>
 
-    <h2>2. Données techniques et stockage local</h2>
+    <h2>2. Compte facultatif (connexion avec Google)</h2>
+    <p>
+      Vous pouvez, si vous le souhaitez, vous connecter avec votre <strong>compte Google</strong>
+      pour <strong>retrouver vos favoris, vos stations récentes, les Shorts déjà vus et votre
+      progression dans les podcasts</strong> sur vos différents appareils, y compris sur le site
+      <a href="https://mediatropical.fr">mediatropical.fr</a> (il s'agit du même compte). Ce compte
+      n'est jamais nécessaire pour utiliser l'application.
+    </p>
+    <ul>
+      <li>
+        <strong>Finalité et base légale</strong> : synchroniser vos favoris, préférences et états de
+        lecture entre vos appareils, service que vous demandez en vous connectant (exécution du
+        service, article 6.1.b du RGPD).
+      </li>
+      <li>
+        <strong>Données d'identification</strong> : votre <strong>adresse e-mail</strong>, ainsi que le
+        <strong>nom et la photo de profil</strong> transmis par Google lors de la connexion (seule
+        l'initiale du nom est affichée, comme avatar du compte).
+      </li>
+      <li>
+        <strong>Données techniques du compte</strong> : identifiant unique, mode de connexion, dates
+        de création et de dernière connexion.
+      </li>
+      <li>
+        <strong>Données synchronisées</strong> : vos stations favorites, votre territoire par défaut,
+        les identifiants des Shorts déjà vus, et pour vos derniers podcasts écoutés l'épisode en
+        cours et la position atteinte, ainsi que la date de dernière mise à jour. Aucune donnée
+        sensible.
+      </li>
+    </ul>
+    <p>
+      L'authentification est assurée par <strong>Firebase Authentication</strong> (Google) et les
+      données synchronisées sont stockées dans <strong>Cloud Firestore</strong> (Google), en région
+      <strong>Union européenne</strong>. Seul votre compte peut lire et modifier vos données.
+      L'authentification Google peut traiter certaines données aux États-Unis. Le compte n'est
+      <strong>pas relié à la mesure d'audience</strong> (section 5), n'est utilisé à aucune fin
+      publicitaire et n'est jamais cédé ni partagé.
+    </p>
+    <p>
+      <strong>Supprimer votre compte</strong> : dans l'application, onglet « Radios », touchez
+      l'icône de compte en haut de l'écran puis « Supprimer mon compte ». La suppression efface
+      immédiatement et définitivement votre compte et vos données synchronisées (des copies de
+      sauvegarde techniques peuvent subsister chez Google pendant une durée limitée). Vous pouvez
+      aussi vous <strong>déconnecter</strong> à tout moment (vos données restent alors sur
+      l'appareil). Autres moyens de suppression, y compris par e-mail :
+      <a href="https://mediatropical.fr/suppression-donnees">mediatropical.fr/suppression-donnees</a>.
+    </p>
+
+    <h2>3. Données techniques et stockage local</h2>
     <p>Pour fonctionner, l'application stocke certaines informations <strong>uniquement sur votre appareil</strong> :</p>
     <ul>
       <li><strong>Préférences et réglages</strong> (stations favorites, alarmes que vous configurez, options du lecteur).</li>
@@ -65,7 +116,7 @@
       ou videz son cache/ses données dans les réglages de votre appareil.
     </p>
 
-    <h2>3. Services tiers et contenus agrégés</h2>
+    <h2>4. Services tiers et contenus agrégés</h2>
     <p>
       L'application donne accès à des contenus fournis par des tiers (flux radio en direct,
       articles d'actualité, podcasts, images associées). Lorsque ces contenus sont chargés,
@@ -84,7 +135,7 @@
       services pour le traitement qu'ils opèrent de leur côté.
     </p>
 
-    <h2>4. Mesure d'audience, rapports de plantage et performance</h2>
+    <h2>5. Mesure d'audience, rapports de plantage et performance</h2>
     <p>
       Afin d'améliorer l'application, nous utilisons les outils <strong>Google Firebase</strong>
       (Analytics, Crashlytics et Performance Monitoring). Leur collecte est
@@ -116,7 +167,7 @@
       <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">politique de confidentialité de Google</a>.
     </p>
 
-    <h2>5. Autorisations de l'appareil</h2>
+    <h2>6. Autorisations de l'appareil</h2>
     <p>L'application peut demander certaines autorisations strictement liées à ses fonctions :</p>
     <ul>
       <li><strong>Accès Internet / réseau</strong> — pour diffuser les flux et charger les contenus.</li>
@@ -125,20 +176,36 @@
       <li><strong>Réseau local</strong> — pour détecter les appareils Google Cast et DLNA lors de la diffusion.</li>
     </ul>
 
-    <h2>6. Enfants</h2>
+    <h2>7. Enfants</h2>
     <p>
       L'application n'est pas destinée spécifiquement aux enfants et ne collecte pas
       sciemment de données les concernant.
     </p>
 
-    <h2>7. Vos droits</h2>
+    <h2>8. Vos droits</h2>
     <p>
-      Nous ne conservons aucun profil utilisateur sur nos propres serveurs : il n'y a donc
-      pas de compte à consulter, modifier ou supprimer de notre côté. La suppression des
-      données locales s'effectue en désinstallant l'application.
+      Conformément au RGPD, vous disposez de droits d'accès, de rectification, d'effacement,
+      de limitation, de portabilité et d'opposition.
+    </p>
+    <ul>
+      <li>
+        <strong>Sans compte</strong> : nous ne conservons aucun profil vous concernant. La
+        suppression des données locales s'effectue en désinstallant l'application ou en
+        effaçant ses données dans les réglages de votre appareil.
+      </li>
+      <li>
+        <strong>Avec un compte</strong> (section 2) : vous pouvez supprimer votre compte et vos
+        données synchronisées vous-même depuis l'application. Pour toute autre demande (copie
+        de vos données, correction, suppression si vous n'avez plus accès au compte),
+        écrivez-nous ; nous répondons dans un délai d'un mois.
+      </li>
+    </ul>
+    <p>
+      Vous pouvez également introduire une réclamation auprès de la
+      <a href="https://www.cnil.fr" target="_blank" rel="noopener">CNIL</a>.
     </p>
     <p>
-      Concernant la mesure d'audience (section 4), elle est <strong>anonyme</strong> et
+      Concernant la mesure d'audience (section 5), elle est <strong>anonyme</strong> et
       soumise à votre consentement : vous pouvez la <strong>désactiver à tout moment</strong>
       via le menu « Confidentialité » de l'application, ce qui interrompt toute nouvelle
       collecte. La gestion et la conservation de ces données anonymes relèvent de Google
@@ -146,13 +213,13 @@
       vous pouvez nous contacter.
     </p>
 
-    <h2>8. Modifications de cette politique</h2>
+    <h2>9. Modifications de cette politique</h2>
     <p>
       Cette politique peut être mise à jour. La date de dernière mise à jour figure en haut de
       page. Les modifications prennent effet dès leur publication sur cette page.
     </p>
 
-    <h2>9. Contact</h2>
+    <h2>10. Contact</h2>
     <p>
       Pour toute question concernant cette politique de confidentialité, écrivez-nous à&nbsp;:
       <a href="mailto:contact.radiomatnik@gmail.com">contact.radiomatnik@gmail.com</a>.
