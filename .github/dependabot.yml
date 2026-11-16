@@ -1,0 +1,8 @@
+# Site statique sans dépendance npm : seules les actions GitHub de la CI sont
+# suivies, une fois par mois.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

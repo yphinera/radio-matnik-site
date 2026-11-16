@@ -1,0 +1,32 @@
+# Vérifications à chaque envoi : site statique publié par GitHub Pages.
+# Aucun secret, aucune dépendance npm : scripts/check-html.mjs contrôle la
+# structure des pages et les liens locaux.
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verifications:
+    name: Contrôle des pages HTML
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+
+      - name: Structure et liens locaux
+        run: node scripts/check-html.mjs
